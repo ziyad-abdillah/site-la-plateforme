@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+}
+.conteneur{
+    background-color: grey;
+}
+.header-conteneur{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    line-height: 23px;
+    padding-left: 30px;
+    width: 100%;
+    align-items: center;
+    font-size: 100%;
+}
+nav #logo{
+    height: 100px;
+}
+nav ul{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+nav li{
+    text-align: center;
+    list-style: none;
+    padding-right: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(42, 42, 42);
+}
+section{
+    display: flex;
+}
+section .gauche{
+    background-color: #336699;
+    width: 30%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+section .droite{
+    background-color: chartreuse;
+    width: 50%;
+}
+section p{
+    color: white;
+    font-size: 25px;
+}
+.droite img{
+    width: 100%;
+}
+.p-3 p{
+    background-color: red;
+}
+.parent-cartes{
+    display: flex;
+    justify-content: space-around;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+}
+.cartes{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    color: #336699;
+    background-color: white;
+}
+.cartes p{
+    color: #336699;
+}
+.section3 {
+    display: flex;
+    flex-direction: column;
+}
+.parent-cartes2{
+    display: flex;
+    flex-direction: column;
+}
